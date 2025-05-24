@@ -1,0 +1,138 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+    background-color:black;
+ }
+ .menu{
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid red; */
+ }
+ .menu h1{
+    display: inline-block;
+    line-height: 100px;
+    margin-left: 100px;
+    text-transform:uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color:blue;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 5px red;
+    cursor: pointer;
+ }
+ .menu h1:hover{
+    color: aliceblue;
+ }
+ .menu nav{
+    display: inline-block;
+    /* line-height: 100px; */
+    margin-left:170px;
+ }
+ .menu nav a{
+    margin-left: 60px;
+    text-decoration: none;
+    /* text-transform:uppercase; */
+    text-transform: capitalize;
+    font-family:sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+
+ }
+ .menu nav a:hover{
+    color:blue;
+
+ }
+ .image{
+    position:absolute;
+    margin-left: 1100px;
+    margin-top: 40px;
+    border-radius: 50%;
+
+ }
+ .image img{
+    height: 300px;
+    width: 300px;
+    border:  7px inset;
+    border-radius: 50%;
+    margin-top: 70px;
+ }
+ .pr h1{
+    margin-top:90px;
+    text-transform:capitalize;
+    font-family: serif;
+    font-size:40px;
+    letter-spacing: 3px;
+    text-shadow: 5px 5px tomato (110,110,26);
+    color:whitesmoke;
+ }
+ .pr h2{
+   margin-top:30px;
+   text-transform:capitalize;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-size: 35px;
+   color:wheat;
+ }
+ .pr p{
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    color:aqua
+    ;
+    font-family:fantasy;
+    
+ }
+ .pr{
+    margin-left:150px;
+ }
+ .icon{
+   /* color: green; */
+   /* height: 50px; */
+   /* width: 50px; */
+   font-size:45px;
+   margin-top: 30px;
+ }
+ #instra{
+   color: red;
+   margin-right: 20px;
+ }
+ #fb{
+   color: blue;
+   margin-right: 20px;
+ }
+ #watsap{
+   color: green;
+   margin-right: 20px;
+ }
+ #x{
+   color:rgb(9, 156, 214);
+
+ }
+ .pr h3{
+   color: white;
+   margin-top: 35px;
+   font-size: 20px;
+   word-spacing: 50px; 
+ }
+ .pr #p2:hover{
+   height: 40px;
+   width: 140px;
+   border-radius: 25px;
+   padding: 10px;
+   border: 2px solid red;
+ }
+ .pr #p2{
+   position: absolute;
+   bottom: 124px;
+   left: 280px;
+ }
+ .pr #p1:hover{
+   height: 40px;
+   width: 100px;
+   border-radius: 25px;
+   padding: 10px;
+   border: 2px solid red;
+ }
